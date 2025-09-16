@@ -22,5 +22,5 @@
 result_operation = "результат операции: 42"
 result_program = "результат работы программы: 9"
 
-number_index = result_operation.index(": ")
+number_index = result_operation.index(":")
 print(result_operation[number_index:])
