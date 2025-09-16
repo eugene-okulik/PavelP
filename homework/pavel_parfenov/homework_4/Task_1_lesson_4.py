@@ -10,7 +10,7 @@ print(my_dict["my_tuple"][-1])
 
 my_dict["my_list"].append("text")
 my_dict["my_list"].pop(1)
-my_dict["dict_test"]["i_am_a_tuple"] = True
+my_dict["dict_test"][("i am a tuple", )] = True
 my_dict["my_set"].add(777)
 my_dict["my_set"].remove("d")
 
