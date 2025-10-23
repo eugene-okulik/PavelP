@@ -15,4 +15,4 @@ Cделайте так, чтобы каждый ключ печатался в �
 words = {'I': 3, 'love': 5, 'Python': 1, '!': 50}
 
 for word in words.keys():
-    print(word*words[word])
+    print(word * words[word])
